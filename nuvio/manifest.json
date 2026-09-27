@@ -1,0 +1,27 @@
+{
+  "name": "Aethelon TV",
+  "version": "1.3.0",
+  "scrapers": [
+    {
+      "id": "aethelon-core",
+      "name": "Aethelon TV (Tüm Akış Düğümleri)",
+      "description": "Yüksek Hızlı Küresel & Yerli Sinema, Dizi ve Animasyon Akış Motoru",
+      "version": "1.3.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/aethelon-master.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

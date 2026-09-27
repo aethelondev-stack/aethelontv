@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Aethelon TV (Hepsi Bir Arada)",
+    "internalName": "Aethelon",
+    "pluginClassName": "com.aethelon.AethelonPlugin",
+    "version": 57,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://tv.aethelondev.workers.dev/cloudstream/beta-v3/Aethelon.cs3",
+    "fileSize": 516772,
+    "fileHash": "sha256-49ba5d481ca99baffdf7d0bf2683320935c4df4b00d83a0878da55daf77ae678",
+    "hash": "49ba5d481ca99baffdf7d0bf2683320935c4df4b00d83a0878da55daf77ae678",
+    "authors": [
+      "AethelonDev"
+    ],
+    "description": "Aethelon TV Hepsi Bir Arada Medya Paketi - Sinema, Dizi, Anime & Belgesel Akış Motoru (v57)",
+    "tvTypes": [
+      "Movie",
+      "TvSeries",
+      "Anime"
+    ],
+    "language": "tr",
+    "iconUrl": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+    "repositoryUrl": "https://github.com/aethelondev-stack/aethelontv",
+    "filesize": 516772
+  }
+]

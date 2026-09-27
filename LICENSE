@@ -1,0 +1,51 @@
+AETHELON OPEN INTEROPERABILITY & RESEARCH LICENSE (AOIRL)
+Version 1.0 — September 2026
+
+Copyright (c) 2026 AethelonDev Stack and Contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, documentation, and associated manifest files (the "Software"),
+to inspect, research, execute, and interoperate with the Software for personal,
+educational, and non-commercial interoperability research, subject to the following
+legal foundations and conditions:
+
+1. EXPRESSIVE SPEECH & FIRST AMENDMENT PROTECTION
+In accordance with established judicial precedent including Bernstein v. U.S. 
+Department of Justice, 176 F.3d 1132 (9th Cir. 1999) and Junger v. Daley, 209 F.3d 481 
+(6th Cir. 2000), software source code, metadata schemas, and parsers constitute expressive 
+speech protected under the law. The distribution of technical constructs, parser manifests, 
+and user-agent scripts is an exercise of protected technical speech.
+
+2. REVERSE ENGINEERING & INTEROPERABILITY FAIR USE
+This Software is designed solely to facilitate interoperability between media playback 
+clients (CloudStream 3, Nuvio) and publicly available hypertext markup. In accordance with 
+17 U.S.C. § 107, 17 U.S.C. § 1201(j) (Security & Interoperability Exemption), and the rulings 
+in Sega Enterprises Ltd. v. Accolade, Inc., 977 F.2d 1510 (9th Cir. 1992) and Sony Computer 
+Entertainment, Inc. v. Connectix Corp., 203 F.3d 596 (9th Cir. 2000), intermediate parsing 
+and architectural modeling for the sole purpose of achieving interoperability with public 
+endpoints is lawful and non-infringing.
+
+3. ABSOLUTE ABSENCE OF MEDIA HOSTING (SAFE HARBOR)
+The Software acts purely as a client-side parser, equivalent to a web browser, RSS reader, 
+or hypermedia indexer. Under no circumstances does this repository, its maintainers, or its 
+associated network nodes host, cache, transmit, duplicate, or distribute any video streams, 
+audio files, audiovisual works, MP4/M3U8 containers, or copyrighted multimedia assets. All 
+stream resolution is executed dynamically on the end-user's device against third-party servers. 
+Pursuant to 17 U.S.C. § 512 (DMCA Safe Harbor) and Directive 2000/31/EC of the European Parliament, 
+the authors maintain complete neutral intermediary status.
+
+4. INDEMNIFICATION & ACCEPTABLE USE
+The Software is provided for private research, accessibility enhancement, and format 
+standardization only. Users of the Software assume full and exclusive responsibility for 
+compliance with applicable local, national, and international laws. By using the Software, 
+the user agrees to indemnify, defend, and hold harmless the authors, developers, and 
+contributors from any claims, damages, liabilities, or expenses arising from the end-user's 
+deployment, streaming behavior, or third-party interactions.
+
+5. DISCLAIMER OF ALL WARRANTIES ("AS-IS")
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE, NON-INFRINGEMENT, OR UNINTERRUPTED OPERABILITY. IN NO EVENT SHALL THE AUTHORS, 
+CONTRIBUTORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, LOSS OF DATA, OR 
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, 
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

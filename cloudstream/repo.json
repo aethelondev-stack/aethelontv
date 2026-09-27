@@ -1,0 +1,8 @@
+{
+  "name": "Aethelon TV Resmi Deposu",
+  "description": "47 Yerli ve küresel HD film, dizi, anime ve belgesel kaynağı (Otopilot Domain Zırhı, v57)",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://tv.aethelondev.workers.dev/cloudstream/plugins.json"
+  ]
+}
