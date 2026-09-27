@@ -111,8 +111,8 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
 </p>
 
 > 💡 **Önerilen En Pratik Yöntem (TV Kumandası & Mobil İçin Kısa Kod):**  
-> CloudStream uygulamasını açın: `Ayarlar ➡️ Eklentiler ➡️ Depo Ekle` alanına doğrudan **`qybI6Yyf`** yazıp İndir / Ekle deyin.  
-> *(Kısa kodun çalışması için [CloudStream Pre-Release](https://cloudstream-apk.com/download-cloudstream-apk/) sürümünü kullanabilir veya aşağıdaki resmi tam URL'yi doğrudan yapıştırabilirsiniz)*.
+> CloudStream uygulamasını açın: `Ayarlar ➡️ Eklentiler ➡️ Depo Ekle` alanına doğrudan **`qybI6Yyf`** (veya **`!aethelontv`**) yazıp İndir / Ekle deyin.  
+> *(Kısa kod çalışmazsa aşağıdaki resmi tam URL bağlantısını doğrudan yapıştırarak kurulum adımlarını uygulayın)*.
 
 **Veya Alternatif Yollarla Kurulum:**
 1. **Tek Dokunuşla:** [Buraya Dokunun](https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json) *(CloudStream yüklü cihazlarda depoyu doğrudan açar)*.
@@ -126,13 +126,13 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
 
 ### 🟣 2. Nuvio Kurulumu (BETA V4 — Modüler & Bağımsız Sağlayıcılar)
 
-Nuvio'da donma, çökme veya tek sağlayıcıya sıkışma sorunlarını önlemek için ekosistem **3 modüler pakete** bölünmüştür. Nuvio uygulamasını açıp `Ayarlar ➡️ Eklentiler (Plugins) ➡️ Add Plugin (Eklenti Ekle)` alanına izlemek istediğiniz paketin manifest adresini yapıştırın:
+Nuvio'da donma, çökme veya tek sağlayıcıya sıkışma sorunlarını önlemek için ekosistem **5 modüler pakete** bölünmüştür. Nuvio uygulamasını açıp `Ayarlar ➡️ Eklentiler (Plugins) ➡️ Add Plugin (Eklenti Ekle)` alanına izlemek istediğiniz paketin manifest adresini yapıştırın:
 
 * 🎬 **Aethelon Sinema Paketi (13 Güvenli Düğüm — Ultra HD DUAL / 1080p):**
   ```text
   https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/sinema/manifest.json
   ```
-* 📺 **Aethelon Dizi Paketi (11 Güvenli Hat — HD Sezonlar & Yerli/Yabancı):**
+* 📺 **Aethelon Dizi Paketi (15 Güvenli Hat — HD Sezonlar & Yerli/Yabancı):**
   ```text
   https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/dizi/manifest.json
   ```
@@ -140,8 +140,16 @@ Nuvio'da donma, çökme veya tek sağlayıcıya sıkışma sorunlarını önleme
   ```text
   https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/anime/manifest.json
   ```
+* 🌐 **Aethelon Global Paketi (11 Küresel Medya Düğümü — 1080p):**
+  ```text
+  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/global/manifest.json
+  ```
+* 🌍 **Aethelon Belgesel & Kült Paketi (2 Özel Doğa, Bilim & Açık Sinema Düğümü):**
+  ```text
+  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/belgesel/manifest.json
+  ```
 
-> 🔒 **Gizlilik & Anti-Block:** Nuvio içerisinde tüm sağlayıcılar (*Aethelon Cinema Alpha, Series Prime, Anime Vault vb.*) bağımsız anahtarlarla listelenir ve kaynak sitelerin erişim engellerini aşmak üzere kurumsal düğüm kodlarıyla maskelenmiştir.
+> 🔒 **Gizlilik & Anti-Block:** Nuvio içerisinde tüm sağlayıcılar (*Aethelon Cinema Alpha, Series Prime, Anime Vault, Global-01, Docu Nature vb.*) bağımsız anahtarlarla listelenir ve kaynak sitelerin erişim engellerini aşmak üzere kurumsal düğüm kodlarıyla maskelenmiştir.
 
 ---
 

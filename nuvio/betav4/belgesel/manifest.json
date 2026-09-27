@@ -1,0 +1,49 @@
+{
+  "name": "Aethelon TV (Belgesel & Kült Paketi)",
+  "version": "1.4.0",
+  "description": "2 Doğa, Bilim & Açık Sinema Düğümü (Doğa/Bilim ve Açık Kaynak 4K)",
+  "scrapers": [
+    {
+      "id": "aethelon-docu-nature",
+      "name": "Aethelon Docu Nature & Science [HD]",
+      "description": "Doğa, Tarih ve Bilim Belgeselleri Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/docu_nature.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-open-studio",
+      "name": "Aethelon Open Studio [4K]",
+      "description": "Açık Kaynak Animasyon ve Sinema Laboratuvarı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/open_studio.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

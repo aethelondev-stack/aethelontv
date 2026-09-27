@@ -1,7 +1,7 @@
 {
   "name": "Aethelon TV (Sinema Paketi)",
   "version": "1.4.0",
-  "description": "26 Güvenli ve Şifreli Sinema Düğümü (Ultra HD DUAL, Prime, Vortex, Pulse vb.)",
+  "description": "13 Yerli Sinema Düğümü (Ultra HD DUAL, Prime, Vortex, Pulse vb.)",
   "scrapers": [
     {
       "id": "aethelon-cinema-alpha",

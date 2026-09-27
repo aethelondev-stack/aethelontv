@@ -1,0 +1,238 @@
+{
+  "name": "Aethelon TV (Global Sinema Paketi)",
+  "version": "1.4.0",
+  "description": "11 Küresel Sinema & Medya Düğümü (Global-01 ile Global-11 Arası)",
+  "scrapers": [
+    {
+      "id": "aethelon-global-01",
+      "name": "Aethelon Global-01 [1080p]",
+      "description": "Küresel 1080p Film ve Sinema Akışı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_01.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-02",
+      "name": "Aethelon Global-02 [1080p]",
+      "description": "Küresel Sinema ve Medya Veritabanı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_02.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-03",
+      "name": "Aethelon Global-03 [1080p]",
+      "description": "Alternatif Küresel Sinema Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_03.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-04",
+      "name": "Aethelon Global-04 [1080p]",
+      "description": "Yüksek Hızlı Sinema Çözümleyici",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_04.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-05",
+      "name": "Aethelon Global-05 [1080p]",
+      "description": "Küresel Medya Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_05.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-06",
+      "name": "Aethelon Global-06 [1080p]",
+      "description": "Hızlı Akış Dağıtım Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_06.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-07",
+      "name": "Aethelon Global-07 [1080p]",
+      "description": "Küresel Dijital Sinema Yayını",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_07.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-08",
+      "name": "Aethelon Global-08 [1080p]",
+      "description": "Dijital Medya Kataloğu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_08.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-09",
+      "name": "Aethelon Global-09 [1080p]",
+      "description": "Yüksek Hızlı Film ve Dizi Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_09.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-10",
+      "name": "Aethelon Global-10 [1080p]",
+      "description": "Günlük Güncellenen Medya Hattı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_10.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-global-11",
+      "name": "Aethelon Global-11 [1080p]",
+      "description": "Yüksek Çözünürlüklü Akış Motoru",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/global_11.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

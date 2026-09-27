@@ -1,7 +1,7 @@
 {
   "name": "Aethelon TV (Dizi Paketi)",
   "version": "1.4.0",
-  "description": "15 Güvenli Dizi & Sezon Hattı (Alpha TV, Prime, Apex, Vortex vb.)",
+  "description": "15 Popüler Dizi & Sezon Hattı (Alpha TV, Prime, Apex, Vortex vb.)",
   "scrapers": [
     {
       "id": "aethelon-series-alpha",
@@ -214,6 +214,86 @@
         "tv"
       ],
       "filename": "providers/turkish_drama_vault.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-orbit",
+      "name": "Aethelon Series Orbit [TV]",
+      "description": "Yerli ve Yabancı Dizi Seçenekleri",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_orbit.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-flare",
+      "name": "Aethelon Series Flare [TV]",
+      "description": "Hızlı Bölüm Çözümleyici Motor",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_flare.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-zenith",
+      "name": "Aethelon Series Zenith [TV]",
+      "description": "Yabancı Dizi Akış Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_zenith.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-binge",
+      "name": "Aethelon Series Binge [TV]",
+      "description": "Maraton Dizi Akış Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_binge.js",
       "enabled": true,
       "formats": [
         "m3u8",
