@@ -21,15 +21,15 @@
 </h3>
 
 <p align="center">
-  Veya Depo Ekle kısmına yazın:
+  CloudStream Depo Ekle kısmına doğrudan yazın (TV Kumandası & Mobil Uyumlu):
 </p>
 
 <h2 align="center">
-  <code>qybOuRUZ</code>
+  <code>qybI6Yyf</code>
 </h2>
 
 <p align="center">
-  <i>(Alternatif kısa kod: <code>!aethelontv</code>)</i>
+  <i>(Veya tam resmi bağlantı: <code>https://tv.aethelondev.workers.dev/cloudstream/repo.json</code>)</i>
 </p>
 
 ---
@@ -111,8 +111,8 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
 </p>
 
 > 💡 **Önerilen En Pratik Yöntem (TV Kumandası & Mobil İçin Kısa Kod):**  
-> CloudStream uygulamasını açın: `Ayarlar ➡️ Eklentiler ➡️ Depo Ekle` alanına doğrudan **`qybOuRUZ`** yazın.  
-> *(Türkiye'de VPN'siz, DNS engelsiz ve saniyeler içinde ekler. Alternatif olarak `!aethelontv` kodu da kullanılabilir)*.
+> CloudStream uygulamasını açın: `Ayarlar ➡️ Eklentiler ➡️ Depo Ekle` alanına doğrudan **`qybI6Yyf`** yazıp İndir / Ekle deyin.  
+> *(Kısa kodun çalışması için [CloudStream Pre-Release](https://cloudstream-apk.com/download-cloudstream-apk/) sürümünü kullanabilir veya aşağıdaki resmi tam URL'yi doğrudan yapıştırabilirsiniz)*.
 
 **Veya Alternatif Yollarla Kurulum:**
 1. **Tek Dokunuşla:** [Buraya Dokunun](https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json) *(CloudStream yüklü cihazlarda depoyu doğrudan açar)*.
@@ -120,18 +120,28 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
    ```text
    https://tv.aethelondev.workers.dev/cloudstream/repo.json
    ```
-   *(Kısa URL alternatifi: `https://cutt.ly/qybOuRUZ` veya `https://py.md/aethelontv`)*
 3. Depo eklendikten sonra depoya dokunun, listede beliren **Aethelon TV (Hepsi Bir Arada)** eklentisini indirip etkinleştirin. Ana sayfanız ve arama motorunuz anında içeriklerle dolacaktır.
 
 ---
 
-### 🟣 2. Nuvio Kurulumu
-1. **Nuvio** uygulamasını açın.
-2. `Ayarlar ➡️ Eklentiler (Plugins) ➡️ Add Plugin` alanını açın.
-3. Aşağıdaki resmi Manifest bağlantısını yapıştırın ve onaylayın:
-   ```text
-   https://tv.aethelondev.workers.dev/cloudstream/nuvio/manifest.json
-   ```
+### 🟣 2. Nuvio Kurulumu (BETA V4 — Modüler & Bağımsız Sağlayıcılar)
+
+Nuvio'da donma, çökme veya tek sağlayıcıya sıkışma sorunlarını önlemek için ekosistem **3 modüler pakete** bölünmüştür. Nuvio uygulamasını açıp `Ayarlar ➡️ Eklentiler (Plugins) ➡️ Add Plugin (Eklenti Ekle)` alanına izlemek istediğiniz paketin manifest adresini yapıştırın:
+
+* 🎬 **Aethelon Sinema Paketi (13 Güvenli Düğüm — Ultra HD DUAL / 1080p):**
+  ```text
+  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/sinema/manifest.json
+  ```
+* 📺 **Aethelon Dizi Paketi (11 Güvenli Hat — HD Sezonlar & Yerli/Yabancı):**
+  ```text
+  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/dizi/manifest.json
+  ```
+* 🎌 **Aethelon Anime & Çizgi Paketi (6 Özel Düğüm — Altyazılı & Nostalji):**
+  ```text
+  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/anime/manifest.json
+  ```
+
+> 🔒 **Gizlilik & Anti-Block:** Nuvio içerisinde tüm sağlayıcılar (*Aethelon Cinema Alpha, Series Prime, Anime Vault vb.*) bağımsız anahtarlarla listelenir ve kaynak sitelerin erişim engellerini aşmak üzere kurumsal düğüm kodlarıyla maskelenmiştir.
 
 ---
 
@@ -139,8 +149,8 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
   <a href="https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json" title="CloudStream'e Doğrudan Ekle">
     <img src="https://img.shields.io/badge/CloudStream%203-Deste%C4%9Fi%20Aktif%20(Dokun%20%E2%9E%9C)-059669?style=for-the-badge&logo=android&logoColor=white" alt="CloudStream 3 Desteği Aktif" />
   </a>
-  <a href="https://tv.aethelondev.workers.dev/cloudstream/nuvio/manifest.json" title="Nuvio Manifesti">
-    <img src="https://img.shields.io/badge/Nuvio-Deste%C4%9Fi%20Aktif%20%E2%9C%93-9333ea?style=for-the-badge&logo=stremio&logoColor=white" alt="Nuvio Desteği Aktif" />
+  <a href="https://tv.aethelondev.workers.dev" title="Nuvio Manifestleri">
+    <img src="https://img.shields.io/badge/Nuvio-Beta%20V4%20Aktif%20%E2%9C%93-9333ea?style=for-the-badge&logo=stremio&logoColor=white" alt="Nuvio Beta V4 Aktif" />
   </a>
 </p>
 
@@ -151,8 +161,8 @@ Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akı
 * 🌐 **Depo Eklenmiyor veya Bağlantı Hatası Alıyorsanız:**  
   Bazı internet servis sağlayıcılarının erişim kısıtlamalarını aşmak için ücretsiz ve resmi **[Cloudflare WARP (1.1.1.1)](https://one.one.one.one)** uygulamasını kurup aktif ederek tekrar deneyin.
 
-* ⚡ **Depo Kısa Kodu Açılmıyorsa:**  
-  Depo Ekle alanına doğrudan **`qybOuRUZ`** yazdığınızdan emin olun (başına ünlem koymayın). Alternatif olarak yukarıdaki 'CloudStream\'e Tek Tıkla Ekle' bağlantısına dokunarak da kurulumu anında yapabilirsiniz.
+* ⚡ **`qybI6Yyf` Kısa Kodu Açılmıyorsa:**  
+  Kodu yazarken başında veya sonunda boşluk bırakmadığınızdan emin olun. Hata devam ederse doğrudan resmi bağlantıyı (`https://tv.aethelondev.workers.dev/cloudstream/repo.json`) Depo Ekle alanına yapıştırın. Alternatif olarak yukarıdaki 'CloudStream\'e Tek Tıkla Ekle' bağlantısına dokunarak da kurulumu anında yapabilirsiniz.
 
 * 🎬 **Video Başlamıyor veya Donuyorsa:**  
   İçerik sayfasındaki alternatif sağlayıcı düğümlerini deneyin. Otopilot Domain Zırhı değişen kaynak adreslerini arka planda otomatik olarak günceller.

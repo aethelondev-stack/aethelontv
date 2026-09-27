@@ -1,0 +1,129 @@
+{
+  "name": "Aethelon TV (Anime & Çizgi Paketi)",
+  "version": "1.4.0",
+  "description": "6 Özel Anime & Çizgi Dizi Düğümü (Alpha Sub, Prime Sub, Apex, Vault vb.)",
+  "scrapers": [
+    {
+      "id": "aethelon-anime-alpha",
+      "name": "Aethelon Anime Alpha [Sub]",
+      "description": "Güncel Türkçe Altyazılı Anime Serileri",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "providers/anime_alpha.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-anime-prime",
+      "name": "Aethelon Anime Prime [Sub]",
+      "description": "Klasik ve Yeni Nesil Anime Kataloğu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "providers/anime_prime.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-anime-apex",
+      "name": "Aethelon Anime Apex [Sub]",
+      "description": "Yüksek Çözünürlüklü Anime Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/anime_apex.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-anime-vault",
+      "name": "Aethelon Anime Vault [Sub]",
+      "description": "Retro ve Güncel Anime Arşivi",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/anime_vault.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-anime-nova",
+      "name": "Aethelon Anime Nova [Sub]",
+      "description": "Anime ve Altyazı Akış Motoru",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/anime_nova.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-toon-animation",
+      "name": "Aethelon Toon & Animation [TR]",
+      "description": "Nostaljik ve Yeni Çizgi Film Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/toon_animation.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

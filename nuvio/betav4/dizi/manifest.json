@@ -1,0 +1,228 @@
+{
+  "name": "Aethelon TV (Dizi Paketi)",
+  "version": "1.4.0",
+  "description": "15 Güvenli Dizi & Sezon Hattı (Alpha TV, Prime, Apex, Vortex vb.)",
+  "scrapers": [
+    {
+      "id": "aethelon-series-alpha",
+      "name": "Aethelon Series Alpha [TV]",
+      "description": "Yabancı Dizi & Sezon Çözücü Hattı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_alpha.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-prime",
+      "name": "Aethelon Series Prime [TV]",
+      "description": "HD Yerli ve Yabancı Dizi Arşivi",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_prime.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-apex",
+      "name": "Aethelon Series Apex [TV]",
+      "description": "Yüksek Hızlı Dizi Bölüm Dağıtım Motoru",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_apex.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-nova",
+      "name": "Aethelon Series Nova [TV]",
+      "description": "Güncel Platform Dizi ve Vizyon Akışı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "providers/series_nova.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-vortex",
+      "name": "Aethelon Series Vortex [TV]",
+      "description": "HD Yabancı ve Asya Dizileri Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_vortex.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-pulse",
+      "name": "Aethelon Series Pulse [TV]",
+      "description": "Popüler Dizi Koleksiyonu Hattı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_pulse.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-quantum",
+      "name": "Aethelon Series Quantum [TV]",
+      "description": "Kapsamlı Yabancı Dizi Veritabanı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_quantum.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-echo",
+      "name": "Aethelon Series Echo [TV]",
+      "description": "Alternatif Dizi Akış Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_echo.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-series-horizon",
+      "name": "Aethelon Series Horizon [TV]",
+      "description": "Hızlı Dizi Bölümleri Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/series_horizon.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-asian-drama-core",
+      "name": "Aethelon Asian Drama Core [TV]",
+      "description": "Asya, Kore ve Japon Dizileri Çözücüsü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/asian_drama_core.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-turkish-drama-vault",
+      "name": "Aethelon Turkish Drama Vault [TV]",
+      "description": "Nostaljik ve Klasik Türk Dizileri Arşivi",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/turkish_drama_vault.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

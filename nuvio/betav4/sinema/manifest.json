@@ -1,0 +1,267 @@
+{
+  "name": "Aethelon TV (Sinema Paketi)",
+  "version": "1.4.0",
+  "description": "26 Güvenli ve Şifreli Sinema Düğümü (Ultra HD DUAL, Prime, Vortex, Pulse vb.)",
+  "scrapers": [
+    {
+      "id": "aethelon-cinema-alpha",
+      "name": "Aethelon Cinema Alpha [1080p]",
+      "description": "Ultra HD DUAL Dublaj & Altyazı Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_alpha.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-prime",
+      "name": "Aethelon Cinema Prime [1080p]",
+      "description": "Hızlı Türkçe Dublaj Sinema Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_prime.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-vortex",
+      "name": "Aethelon Cinema Vortex [1080p]",
+      "description": "Yüksek Bant Genişlikli Film Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_vortex.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-pulse",
+      "name": "Aethelon Cinema Pulse [1080p]",
+      "description": "HD Sinema & Altyazı Akış Motoru",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_pulse.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-nova",
+      "name": "Aethelon Cinema Nova [1080p]",
+      "description": "Geniş Sinema Kataloğu Çözümleyicisi",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_nova.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-apex",
+      "name": "Aethelon Cinema Apex [1080p]",
+      "description": "1080p Yüksek Çözünürlüklü Akış Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_apex.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-orbit",
+      "name": "Aethelon Cinema Orbit [1080p]",
+      "description": "Festival ve Vizyon Sinema Motoru",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_orbit.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-quantum",
+      "name": "Aethelon Cinema Quantum [720p/1080p]",
+      "description": "Stabil Sinema Yayın Hattı",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_quantum.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-echo",
+      "name": "Aethelon Cinema Echo [1080p]",
+      "description": "Popüler ve Bağımsız Sinema Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_echo.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-horizon",
+      "name": "Aethelon Cinema Horizon [1080p]",
+      "description": "Güncel HD Sinema Çözücüsü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinema_horizon.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-archive-classic",
+      "name": "Aethelon Archive Classic [HD]",
+      "description": "Sinema Tarihi Başyapıtları Arşivi",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/archive_classic.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-archive-vault",
+      "name": "Aethelon Archive Vault [HD]",
+      "description": "Nadir ve Kült Sinema Koleksiyonu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/archive_vault.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-vintage-cinema",
+      "name": "Aethelon Vintage Cinema [Restored]",
+      "description": "Dijital Restorasyonlu Klasik Sinema Düğümü",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/vintage_cinema.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
+}

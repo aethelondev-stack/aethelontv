@@ -1,18 +1,58 @@
 {
-  "name": "Aethelon TV",
-  "version": "1.3.0",
+  "name": "Aethelon TV (Sinema Paketi)",
+  "version": "1.4.0",
+  "description": "26 Güvenli ve Şifreli Sinema Düğümü (Ultra HD DUAL, Prime, Vortex, Pulse vb.)",
   "scrapers": [
     {
-      "id": "aethelon-core",
-      "name": "Aethelon TV (Tüm Akış Düğümleri)",
-      "description": "Yüksek Hızlı Küresel & Yerli Sinema, Dizi ve Animasyon Akış Motoru",
-      "version": "1.3.0",
+      "id": "aethelon-cinema-alpha",
+      "name": "Aethelon Cinema Alpha [1080p]",
+      "description": "Ultra HD DUAL Dublaj & Altyazı Düğümü",
+      "version": "1.4.0",
       "author": "AethelonDev",
       "supportedTypes": [
-        "movie",
-        "tv"
+        "movie"
       ],
-      "filename": "providers/aethelon-master.js",
+      "filename": "betav4/sinema/providers/cinema_alpha.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-prime",
+      "name": "Aethelon Cinema Prime [1080p]",
+      "description": "Hızlı Türkçe Dublaj Sinema Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "betav4/sinema/providers/cinema_prime.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://tv.aethelondev.workers.dev/cloudstream/icon.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "aethelon-cinema-vortex",
+      "name": "Aethelon Cinema Vortex [1080p]",
+      "description": "Yüksek Bant Genişlikli Film Sunucusu",
+      "version": "1.4.0",
+      "author": "AethelonDev",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "betav4/sinema/providers/cinema_vortex.js",
       "enabled": true,
       "formats": [
         "m3u8",
