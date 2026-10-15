@@ -1,209 +1,110 @@
-<p align="center">
-  <a href="https://tv.aethelondev.workers.dev">
-    <img src="https://img.shields.io/badge/S%C3%BCr%C3%BCm-Beta__v3-10b981?style=for-the-badge&logo=android" alt="Sürüm Beta_v3" />
-  </a>
-  <a href="https://kotlinlang.org">
-    <img src="https://img.shields.io/badge/Geli%C5%9Ftirme-Kotlin%20%26%20Rhino-7f52ff?style=for-the-badge&logo=kotlin" alt="Kotlin ile Yapıldı" />
-  </a>
-  <a href="https://tv.aethelondev.workers.dev">
-    <img src="https://img.shields.io/badge/Altyap%C4%B1-Otopilot%20Aktif-0ea5e9?style=for-the-badge" alt="Otopilot Zırhı" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json" title="CloudStream'e Doğrudan Ekle">
-    <img src="https://tv.aethelondev.workers.dev/cloudstream/banner.jpg" alt="aethelontv" width="100%" />
-  </a>
-</p>
-
-<h3 align="center">
-  ☝️ <a href="https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json">Yukarıdaki logoya dokun: aethelontv deposu CloudStream'e eklenir.</a>
-</h3>
-
-<p align="center">
-  CloudStream Depo Ekle kısmına doğrudan yazın (TV Kumandası & Mobil Uyumlu):
-</p>
-
-<h2 align="center">
-  <code>qybI6Yyf</code>
-</h2>
-
-<p align="center">
-  <i>(Veya tam resmi bağlantı: <code>https://tv.aethelondev.workers.dev/cloudstream/repo.json</code>)</i>
-</p>
-
----
-
-## ⚡ Aethelon TV Nedir?
-
-**Aethelon TV**; CloudStream 3 ve Nuvio için tasarlanmış, tüm sinema ve dizi kaynaklarını tek pakette toplayan otopilot korumalı medya çekirdeğidir.
-
-<p align="center">
-  <b>🚀 47 Akış Motoru</b> &nbsp;•&nbsp; 
-  <b>🛡️ Akıllı Bot Aşımı</b> &nbsp;•&nbsp; 
-  <b>📡 7/24 Otopilot Zırhı</b> &nbsp;•&nbsp; 
-  <b>📺 Kumanda & TV Uyumlu</b> &nbsp;•&nbsp; 
-  <b>🚫 Sıfır Reklam</b>
-</p>
-
-<p align="center">
-  <sub>📱 <b>Uyumlu Cihazlar:</b> Android Telefon / Tablet &nbsp;•&nbsp; 📺 Android TV & Google TV &nbsp;•&nbsp; 📦 TV Box (Mi Box, Fire TV Stick, Chromecast)</sub>
-</p>
-
----
-
 <div align="center">
 
-### ☕ Geliştiriciye Destek Ol
-Aethelon TV tamamen ücretsiz ve reklamsızdır. Sunucu masraflarına katkıda bulunmak ve projeyi desteklemek isterseniz:
+# AethelonTV
 
-<p align="center">
-  <a href="https://kreosus.com/httpstvaethelondevworkersdev/about" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Kreosus-G%C3%BCvenli%20Destek%20Ol%20%E2%98%95-ec4899?style=for-the-badge&logo=kofi" alt="Kreosus ile Destek Ol" />
-  </a>
-</p>
+**Yüksek Performanslı Modüler Medya ve Akış Dağıtım Çekirdeği**
 
-<p align="center">
-  <a href="https://kreosus.com/httpstvaethelondevworkersdev/about" target="_blank" rel="noopener noreferrer" title="Kreosus ile Destek Ol (Telefondan Okutun)">
-    <img src="https://tv.aethelondev.workers.dev/cloudstream/qr_kreosus.png" alt="Kreosus QR Kod" width="135" />
-  </a>
-  <br>
-  <sub>📱 <i>Telefon kamerasından karekodu okutarak anında destek olabilirsiniz</i></sub>
-</p>
-
-<p align="center">
-  <small><i>*Kreosus üzerinden yapılan bağışlarda kişisel kimlik bilgileriniz, adınız veya IBAN numaranız %100 gizli kalır.</i></small>
-</p>
+[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-v0.0.6-blue?style=flat-square)](https://github.com/aethelondev-stack/aethelontv/releases)
+[![Altyapı](https://img.shields.io/badge/Altyap%C4%B1-Cloudflare%20Edge%20%7C%20QuickJS-orange?style=flat-square)](https://www.aetheloncore.space)
+[![Durum](https://img.shields.io/badge/Durum-%C3%87al%C4%B1%C5%9F%C4%B1yor-success?style=flat-square)](https://www.aetheloncore.space)
+[![Lisans](https://img.shields.io/badge/Lisans-ARIL%20v1.0-lightgrey?style=flat-square)](LICENSE)
 
 ---
 
-### 🌐 Topluluk & Resmi Bağlantılar
-
-<p align="center">
-  <a href="https://t.me/AethelonTV" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Telegram-Resmi%20Kanal%C4%B1m%C4%B1z-229ED9?style=for-the-badge&logo=telegram" alt="Telegram Kanalı" />
-  </a>
-  <a href="https://github.com/aethelondev-stack" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Geli%C5%9Ftirici%20Profili-181717?style=for-the-badge&logo=github" alt="GitHub Profil" />
-  </a>
-  <a href="https://x.com/AethelonDev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/X%20(Twitter)-%40AethelonDev-000000?style=for-the-badge&logo=x" alt="X / Twitter" />
-  </a>
-  <a href="https://tv.aethelondev.workers.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Web%20Sitemiz-tv.aethelondev.workers.dev-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Sitesi" />
-  </a>
-</p>
+AethelonTV; internet üzerindeki kamuya açık içerik sağlayıcılarını, dinamik katalogları ve canlı yayın akışlarını modern medya oynatıcıları için tek bir standartta toplayan hafif, optimize edilmiş ve yüksek hızlı bir istemci mimarisidir.
 
 </div>
 
 ---
 
-## ⚡ Kurulum Anlatımı (Tek Link — Hepsi Bir Arada)
+## 📌 Mimari ve Öne Çıkan Özellikler
 
-Aethelon TV; sinema, dizi, animasyon ve açık arşiv içeriklerini tek bir akıllı çekirdekte toplayan bağımsız bir medya motorudur. Ayrı ayrı depolar yüklemenize gerek kalmadan tek bir bağlantı üzerinden çalışır.
-
-### 🟢 1. CloudStream 3 Kurulumu
-
-<p align="center">
-  <a href="https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json">
-    <img src="https://img.shields.io/badge/%F0%9F%93%B2%20CloudStream'e%20Tek%20T%C4%B1kla%20Ekle-059669?style=for-the-badge&logo=android&logoColor=white" alt="CloudStream'e Tek Tıkla Ekle" />
-  </a>
-</p>
-
-> 💡 **Önerilen En Pratik Yöntem (TV Kumandası & Mobil İçin Kısa Kod):**  
-> CloudStream uygulamasını açın: `Ayarlar ➡️ Eklentiler ➡️ Depo Ekle` alanına doğrudan **`qybI6Yyf`** (veya **`!aethelontv`**) yazıp İndir / Ekle deyin.  
-> *(Kısa kod çalışmazsa aşağıdaki resmi tam URL bağlantısını doğrudan yapıştırarak kurulum adımlarını uygulayın)*.
-
-**Veya Alternatif Yollarla Kurulum:**
-1. **Tek Dokunuşla:** [Buraya Dokunun](https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json) *(CloudStream yüklü cihazlarda depoyu doğrudan açar)*.
-2. **Manuel Bağlantı:** Depo URL alanına aşağıdaki tek resmi bağlantıyı yapıştırın:
-   ```text
-   https://tv.aethelondev.workers.dev/cloudstream/repo.json
-   ```
-3. Depo eklendikten sonra depoya dokunun, listede beliren **Aethelon TV (Hepsi Bir Arada)** eklentisini indirip etkinleştirin. Ana sayfanız ve arama motorunuz anında içeriklerle dolacaktır.
+- **Edge Düzeyinde Hızlı Yönlendirme:** Dağıtık V8 Edge Workers altyapısı ile sıfıra yakın gecikme ve kesintisiz yük dengeleme.
+- **QuickJS Motor Uyumluluğu:** 64 KB yığın (stack) sınırına ve düşük donanımlı Android TV / TV Box cihazlarına uygun bellek dostu mimari.
+- **Akıllı Çift Kaynak (Multi-Stream):** Canlı yayınlarda otomatik hat geçişi ve yüksek erişilebilirlik.
+- **Sıfır Reklam ve Temiz Arayüz:** Kullanıcı deneyimini bozan hiçbir harici enjeksiyon veya aracı yönlendirme içermez.
 
 ---
 
-### 🟣 2. Nuvio Kurulumu (BETA V4 — Modüler & Bağımsız Sağlayıcılar)
+## 🌐 Manifest Bağlantıları
 
-Nuvio'da donma, çökme veya tek sağlayıcıya sıkışma sorunlarını önlemek için ekosistem **5 modüler pakete** bölünmüştür. Nuvio uygulamasını açıp `Ayarlar ➡️ Eklentiler (Plugins) ➡️ Add Plugin (Eklenti Ekle)` alanına izlemek istediğiniz paketin manifest adresini yapıştırın:
+Medya merkezinize eklemeniz gereken güncel resmi manifest adresleri:
 
-* 🎬 **Aethelon Sinema Paketi (13 Güvenli Düğüm — Ultra HD DUAL / 1080p):**
-  ```text
-  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/sinema/manifest.json
-  ```
-* 📺 **Aethelon Dizi Paketi (15 Güvenli Hat — HD Sezonlar & Yerli/Yabancı):**
-  ```text
-  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/dizi/manifest.json
-  ```
-* 🎌 **Aethelon Anime & Çizgi Paketi (6 Özel Düğüm — Altyazılı & Nostalji):**
-  ```text
-  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/anime/manifest.json
-  ```
-* 🌐 **Aethelon Global Paketi (11 Küresel Medya Düğümü — 1080p):**
-  ```text
-  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/global/manifest.json
-  ```
-* 🌍 **Aethelon Belgesel & Kült Paketi (2 Özel Doğa, Bilim & Açık Sinema Düğümü):**
-  ```text
-  https://tv.aethelondev.workers.dev/cloudstream/nuvio/betav4/belgesel/manifest.json
-  ```
-
-> 🔒 **Gizlilik & Anti-Block:** Nuvio içerisinde tüm sağlayıcılar (*Aethelon Cinema Alpha, Series Prime, Anime Vault, Global-01, Docu Nature vb.*) bağımsız anahtarlarla listelenir ve kaynak sitelerin erişim engellerini aşmak üzere kurumsal düğüm kodlarıyla maskelenmiştir.
+| Bileşen | Açıklama | Manifest URL |
+| :--- | :--- | :--- |
+| **AethelonTV Scrapers** | 79 bağımsız medya çözümleme motoru | `https://www.aetheloncore.space/AethelonTV/manifest.json` |
+| **AethelonTV Katalog** | Film, dizi, belgesel ve canlı yayın kataloğu | `https://www.aetheloncore.space/AethelonTV/katalog/manifest.json` |
 
 ---
 
-<p align="center">
-  <a href="https://intradeus.github.io/http-protocol-redirector?r=cloudstreamrepo://tv.aethelondev.workers.dev/cloudstream/repo.json" title="CloudStream'e Doğrudan Ekle">
-    <img src="https://img.shields.io/badge/CloudStream%203-Deste%C4%9Fi%20Aktif%20(Dokun%20%E2%9E%9C)-059669?style=for-the-badge&logo=android&logoColor=white" alt="CloudStream 3 Desteği Aktif" />
-  </a>
-  <a href="https://tv.aethelondev.workers.dev" title="Nuvio Manifestleri">
-    <img src="https://img.shields.io/badge/Nuvio-Beta%20V4%20Aktif%20%E2%9C%93-9333ea?style=for-the-badge&logo=stremio&logoColor=white" alt="Nuvio Beta V4 Aktif" />
-  </a>
-</p>
+## 🚀 Kurulum Rehberi (Nuvio Media Center)
+
+AethelonTV, Android TV, Google TV ve Android mobil cihazlarda Nuvio Media Center ile tam uyumludur.
+
+1. Cihazınızda **Nuvio** uygulamasını açın.
+2. **Ayarlar > Eklentiler (Plugins) > Eklenti Ekle** bölümüne gidin.
+3. Yukarıdaki **AethelonTV Scrapers** ve **AethelonTV Katalog** manifest linklerini sırayla ekleyin.
+4. Eklentileri etkinleştirin; katalog ve arama dizini otomatik olarak senkronize edilecektir.
+
+> ⚠️ **Önemli Kurulum Notu:**  
+> Aethelon Katalog eklentisini kurduğunuzda, arama ve katalog çakışmalarını önlemek için **altyazı eklentileri hariç diğer tüm eklentileri devre dışı bırakınız**.
 
 ---
 
-## 🛠️ Olası Sorunlar ve Çözümleri
+## 📺 Yayın ve İçerik Yelpazesi
 
-* 🌐 **Depo Eklenmiyor veya Bağlantı Hatası Alıyorsanız:**  
-  Bazı internet servis sağlayıcılarının erişim kısıtlamalarını aşmak için ücretsiz ve resmi **[Cloudflare WARP (1.1.1.1)](https://one.one.one.one)** uygulamasını kurup aktif ederek tekrar deneyin.
+AethelonTV ekosistemi, içerikleri kategorik ve düzenli akış hatları üzerinden organize eder:
 
-* ⚡ **`qybI6Yyf` Kısa Kodu Açılmıyorsa:**  
-  Kodu yazarken başında veya sonunda boşluk bırakmadığınızdan emin olun. Hata devam ederse doğrudan resmi bağlantıyı (`https://tv.aethelondev.workers.dev/cloudstream/repo.json`) Depo Ekle alanına yapıştırın. Alternatif olarak yukarıdaki 'CloudStream\'e Tek Tıkla Ekle' bağlantısına dokunarak da kurulumu anında yapabilirsiniz.
-
-* 🎬 **Video Başlamıyor veya Donuyorsa:**  
-  İçerik sayfasındaki alternatif sağlayıcı düğümlerini deneyin. Otopilot Domain Zırhı değişen kaynak adreslerini arka planda otomatik olarak günceller.
-
-* 🔄 **Otomatik Güncelleme (Bakım Gerektirmez):**  
-  Kaynak adresleri ve bozuk linkler sunucu otopilotumuz tarafından arka planda 7/24 güncellenir; sizin tekrar tekrar manuel eklenti güncellemesi yapmanıza gerek kalmaz.
-
-* 💬 **Doğrudan Destek:**  
-  Teknik geri bildirimleriniz için resmi Telegram Destek Botumuz: [@AethelonTV_Bot](https://t.me/AethelonTV_Bot).
+- **Ulusal ve Yerel Kanallar:** Kesintisiz yüksek çözünürlüklü yayın hatları.
+- **Spor Kanalları:** Çoklu canlı hat (Hat 1 / Hat 2) destekli dinamik spor yayınları.
+- **Haber Kanalları:** 7/24 güncel canlı haber akışları.
+- **Sinema, Dizi ve Tematik Kanallar:** Yerli ve yabancı içerikler, belgesel ve kültür yayınları.
 
 ---
 
-<div align="center">
+## 📲 CloudStream Eklentisi
 
-### 📊 Ziyaretçi Sayısı
-
-<p align="center">
-  <img src="https://tv.aethelondev.workers.dev/aethelon/badge/visitors.svg" alt="Ziyaretçi Sayacı" />
-</p>
-
-</div>
+> **Bilgilendirme:** AethelonTV CloudStream eklentisi şu anda geliştirme ve uyumluluk testleri aşamasındadır. Çok yakında resmi olarak yayınlanacaktır. Güncellemeleri Telegram kanalımızdan takip edebilirsiniz.
 
 ---
 
-## 🛡️ DMCA Bildirimi (DMCA Disclaimer)
+## 🛠️ Teknoloji Yığını
 
-> **ÖNEMLİ HUKUKİ BİLGİLENDİRME:**
-> 1. **Hiçbir Medya Barındırılmaz:** Aethelon TV sunucularında veya kaynak kodlarında kesinlikle hiçbir video dosyası, film/dizi akışı (mp4, m3u8, mkv, avi vb.), telif hakkına tabi görsel-işitsel eser ya da torrent parçası **BARINDIRILMAMAKTADIR** ve **DAĞITILMAMAKTADIR**.
-> 2. **Yalnızca Hipermetin / DOM İstemcisidir:** Bu proje; tıpkı bir web tarayıcısı (Google Chrome, Firefox), bir RSS okuyucusu veya bir arama motoru örümceği gibi, internette kamuya açık üçüncü taraf web sayfalarının HTML/DOM yapısını istemci cihaz üzerinde ayrıştıran (parse eden) açık kaynaklı bir kullanıcı arayüzü yazılımıdır.
-> 3. **Üçüncü Taraf Sunucuların Bağımsızlığı:** İçeriklerin sunulduğu harici oynatıcılar ve sunucular üzerinde geliştiricilerin hiçbir kontrolü, sahipliği veya iş ortaklığı bulunmamaktadır. Telif hakkı sahipleri, ihlal iddiasında bulundukları içeriklerin kaldırılması için doğrudan söz konusu üçüncü taraf barındırıcı (host) servis sağlayıcılarına başvurmalıdır.
-> 4. **DMCA Safe Harbor (17 U.S.C. § 512) ve AB 2000/31/EC Uyumluluğu:** Aethelon TV, dijital telif hakkı mevzuatlarına tam saygı duyar. Proje yalnızca tarafsız bir aracı köprü vazifesi görür. Hukuki ve teknik geri bildirimleriniz için resmi Telegram Destek Botumuz: [@AethelonTV_Bot](https://t.me/AethelonTV_Bot).
+- **Çalışma Zamanı & Diller:** JavaScript (ES2022), Node.js, QuickJS
+- **Edge Dağıtım:** Cloudflare Edge Workers (V8 Isolate)
+- **Paketleme & Optimizasyon:** ESBuild (Safe Mangling & AST Minification)
+- **Protokoller:** HLS (HTTP Live Streaming), Dynamic M3U8 Rewriter
 
 ---
 
-## 📜 Lisans (License)
-Bu proje, **Aethelon Açık Birlikte Çalışabilirlik ve Araştırma Lisansı** (Aethelon Interoperability Research License - AOIRL v1.0) altında lisanslanmıştır. Detaylar ve anayasal/hukuki dayanaklar için [LICENSE](LICENSE) dosyasına göz atabilirsiniz.
+## ☕ Geliştiriciye Destek Ol
+
+AethelonTV tamamen açık fikirli, bağımsız ve reklamsız bir araştırma projesidir. Sunucu ve altyapı giderlerine katkıda bulunarak projeyi desteklemek isterseniz:
+
+[![Kreosus Destek](https://img.shields.io/badge/Kreosus-Geli%C5%9Ftiriciye%20Destek%20Ol-ec4899?style=for-the-badge&logo=kofi&logoColor=white)](https://kreosus.com/httpstvaethelondevworkersdev/about)
+
+*Kreosus üzerinden yapılan desteklerde kişisel bilgileriniz ve ödeme detaylarınız tamamen gizli kalır.*
+
+---
+
+## 🔗 Topluluk ve İletişim
+
+- **Telegram Kanalı:** [t.me/AethelonTV](https://t.me/AethelonTV)
+- **Twitter / X:** [@AethelonDev](https://x.com/AethelonDev)
+- **GitHub:** [github.com/aethelondev-stack](https://github.com/aethelondev-stack)
+- **Web Portalı:** [aetheloncore.space](https://www.aetheloncore.space)
+
+---
+
+## ⚖️ Yasal Bilgilendirme ve DMCA Bildirimi
+
+1. **İçerik Barındırılmaz:** AethelonTV sunucularında, depolarında veya dağıtım ağlarında hiçbir video, ses, film, dizi, canlı yayın akışı (MP4, M3U8, MKV vb.) ya da telif hakkına tabi materyal barındırılmaz, depolanmaz ve iletilmez.
+2. **Aracı Köprü Konumu:** AethelonTV, tıpkı standart bir internet tarayıcısı (Chrome, Firefox) gibi yalnızca internette kamuya açık kaynaklarda yer alan hipermetin (DOM / HTML / JSON) verilerini kullanıcı istemcisinde ayrıştıran bir yazılım arayüzüdür.
+3. **Üçüncü Taraf Sunucular:** Gösterilen akışlar doğrudan bağımsız üçüncü taraf sunuculardan çağrılmaktadır. Geliştiricilerin bu sunucular üzerinde hiçbir idari, mali veya teknik kontrolü bulunmamaktadır.
+4. **DMCA ve Yasal Uyumluluk:** AethelonTV, 17 U.S.C. § 512 (DMCA Safe Harbor) ve Avrupa Birliği 2000/31/EC sayılı direktifleri uyarınca tarafsız bir teknik servis sağlayıcıdır. Telif hakkı sahipleri taleplerini ilgili içeriği barındıran asıl sunucu sağlayıcılarına iletmelidir.
+
+---
+
+## 📜 Lisans
+
+Bu proje **Aethelon Research and Interoperability License (ARIL v1.0)** altında yayımlanmıştır. Ayrıntılar için [LICENSE](LICENSE) belgesini inceleyebilirsiniz.
