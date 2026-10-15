@@ -17,22 +17,13 @@ AethelonTV; internet üzerindeki kamuya açık içerik sağlayıcılarını, din
 
 ---
 
-## 📌 Mimari ve Öne Çıkan Özellikler
-
-- **Edge Düzeyinde Hızlı Yönlendirme:** Dağıtık V8 Edge Workers altyapısı ile sıfıra yakın gecikme ve kesintisiz yük dengeleme.
-- **QuickJS Motor Uyumluluğu:** 64 KB yığın (stack) sınırına ve düşük donanımlı Android TV / TV Box cihazlarına uygun bellek dostu mimari.
-- **Akıllı Çift Kaynak (Multi-Stream):** Canlı yayınlarda otomatik hat geçişi ve yüksek erişilebilirlik.
-- **Sıfır Reklam ve Temiz Arayüz:** Kullanıcı deneyimini bozan hiçbir harici enjeksiyon veya aracı yönlendirme içermez.
-
----
-
 ## 🌐 Manifest Bağlantıları
 
 Medya merkezinize eklemeniz gereken güncel resmi manifest adresleri:
 
 | Bileşen | Açıklama | Manifest URL |
 | :--- | :--- | :--- |
-| **AethelonTV Scrapers** | 79 bağımsız medya çözümleme motoru | `https://www.aetheloncore.space/AethelonTV/manifest.json` |
+| **AethelonTV** | 79 bağımsız medya çözümleme motoru | `https://www.aetheloncore.space/AethelonTV/manifest.json` |
 | **AethelonTV Katalog** | Film, dizi, belgesel ve canlı yayın kataloğu | `https://www.aetheloncore.space/AethelonTV/katalog/manifest.json` |
 
 ---
@@ -41,13 +32,46 @@ Medya merkezinize eklemeniz gereken güncel resmi manifest adresleri:
 
 AethelonTV, Android TV, Google TV ve Android mobil cihazlarda Nuvio Media Center ile tam uyumludur.
 
-1. Cihazınızda **Nuvio** uygulamasını açın.
-2. **Ayarlar > Eklentiler (Plugins) > Eklenti Ekle** bölümüne gidin.
-3. Yukarıdaki **AethelonTV Scrapers** ve **AethelonTV Katalog** manifest linklerini sırayla ekleyin.
-4. Eklentileri etkinleştirin; katalog ve arama dizini otomatik olarak senkronize edilecektir.
+1. **Katalog Kurulumu:**  
+   `Ayarlar > İçerik ve Keşif > Eklentiler > Eklenti Kur` bölümüne gidin ve katalog manifest bağlantısını ekleyin:
+   ```text
+   https://www.aetheloncore.space/AethelonTV/katalog/manifest.json
+   ```
+
+2. **Medya Motoru (Uzantı) Kurulumu:**  
+   `Ayarlar > İçerik ve Keşif > Uzantılar > Depo ekle` bölümüne gidin ve AethelonTV manifest bağlantısını ekleyin:
+   ```text
+   https://www.aetheloncore.space/AethelonTV/manifest.json
+   ```
+
+3. Eklentileri etkinleştirin; katalog şeritleri ve arama dizini otomatik olarak senkronize edilecektir.
 
 > ⚠️ **Önemli Kurulum Notu:**  
 > Aethelon Katalog eklentisini kurduğunuzda, arama ve katalog çakışmalarını önlemek için **altyazı eklentileri hariç diğer tüm eklentileri devre dışı bırakınız**.
+
+---
+
+<div align="center">
+
+## ☕ Geliştiriciye Destek Ol
+
+AethelonTV tamamen açık fikirli, bağımsız ve reklamsız bir araştırma projesidir. Sunucu ve altyapı giderlerine katkıda bulunarak projeyi desteklemek isterseniz:
+
+[![Kreosus Destek](https://img.shields.io/badge/Kreosus-Geli%C5%9Ftiriciye%20Destek%20Ol-ec4899?style=for-the-badge&logo=kofi&logoColor=white)](https://kreosus.com/httpstvaethelondevworkersdev/about)
+
+<br><br>
+
+<a href="https://kreosus.com/httpstvaethelondevworkersdev/about" target="_blank" rel="noopener noreferrer">
+  <img src="assets/qr_kreosus.png" alt="Kreosus Destek QR Kodu" width="160" />
+</a>
+
+<br>
+<sub>📱 <i>Telefonunuzun kamerasıyla QR kodu okutarak doğrudan destek sayfasına ulaşabilirsiniz.</i></sub>
+
+<br>
+<small><i>*Kreosus üzerinden yapılan desteklerde kişisel bilgileriniz ve ödeme detaylarınız tamamen gizli kalır.</i></small>
+
+</div>
 
 ---
 
@@ -74,16 +98,6 @@ AethelonTV ekosistemi, içerikleri kategorik ve düzenli akış hatları üzerin
 - **Edge Dağıtım:** Cloudflare Edge Workers (V8 Isolate)
 - **Paketleme & Optimizasyon:** ESBuild (Safe Mangling & AST Minification)
 - **Protokoller:** HLS (HTTP Live Streaming), Dynamic M3U8 Rewriter
-
----
-
-## ☕ Geliştiriciye Destek Ol
-
-AethelonTV tamamen açık fikirli, bağımsız ve reklamsız bir araştırma projesidir. Sunucu ve altyapı giderlerine katkıda bulunarak projeyi desteklemek isterseniz:
-
-[![Kreosus Destek](https://img.shields.io/badge/Kreosus-Geli%C5%9Ftiriciye%20Destek%20Ol-ec4899?style=for-the-badge&logo=kofi&logoColor=white)](https://kreosus.com/httpstvaethelondevworkersdev/about)
-
-*Kreosus üzerinden yapılan desteklerde kişisel bilgileriniz ve ödeme detaylarınız tamamen gizli kalır.*
 
 ---
 
